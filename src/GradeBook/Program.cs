@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// Tutorial with Scott Allen reviewing fundamentals of C# and OOP
+// https://app.pluralsight.com/library/courses/csharp-fundamentals-dev/table-of-contents
+
 namespace GradeBook
 {
     class Program
