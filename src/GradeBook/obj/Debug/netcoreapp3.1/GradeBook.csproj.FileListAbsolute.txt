@@ -4,8 +4,8 @@ C:\DEV\C#\Gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfi
 C:\DEV\C#\Gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.dev.json
 C:\DEV\C#\Gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.dll
 C:\DEV\C#\Gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.pdb
-C:\DEV\C#\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
 C:\DEV\C#\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfoInputs.cache
 C:\DEV\C#\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
 C:\DEV\C#\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
 C:\DEV\C#\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
+C:\DEV\C#\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
