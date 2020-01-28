@@ -1,1 +1,1 @@
-"# Gradebook" 
+"Gradebook application used to store grades and get stats on information. This application is based on the .NET framework and building .NET apps up with Visual Studio Code, it uses the XUNIT unit testing tool." 
