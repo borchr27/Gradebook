@@ -78,7 +78,9 @@ namespace GradeBook
             // Using a property vs a field
             // This is read only
             get;
-            private set;
+            set;
+            // Below makes it read only
+            //private set;
         }
     }
 }
