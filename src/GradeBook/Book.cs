@@ -33,8 +33,9 @@ namespace GradeBook
             }
             else
             {
-                Console.WriteLine("Invalid value");
+                throw new ArgumentException($"Invalid {nameof(grade)}");
             }
+
         }
 
         public Statistics GetStats()
@@ -71,6 +72,13 @@ namespace GradeBook
             return result;
         }
         private List<double> grades;
-        public string Name;
+
+        public string Name
+        {
+            // Using a property vs a field
+            // This is read only
+            get;
+            private set;
+        }
     }
 }
