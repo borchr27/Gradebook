@@ -3,8 +3,25 @@ using Xunit;
 
 namespace GradeBook.Tests
 {
+    // Dotnet runtime does garbage collection
+    // Knows when no variables are using an object
+
     public class TypeTests
     {
+        [Fact]
+        public void AddGradeTest()
+        {
+            var book = new Book("Test");
+            AddWrongGrade(book, 99);
+            AddWrongGrade(book, 105);
+            
+        }
+
+        private void AddWrongGrade(Book book, int v)
+        {
+            book.AddGrade(v);
+        }
+
         [Fact]
         public void ValueTypesAlsoPassByValue()
         {
