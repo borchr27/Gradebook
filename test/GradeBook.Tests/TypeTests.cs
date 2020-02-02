@@ -8,18 +8,31 @@ namespace GradeBook.Tests
 
     public class TypeTests
     {
+        public delegate string WriteLogDelegate(string logMessage);
+        int count = 0;
         [Fact]
-        public void AddGradeTest()
+        public void WriteLogDelegateCAnPointToMethod()
         {
-            var book = new Book("Test");
-            AddWrongGrade(book, 99);
-            AddWrongGrade(book, 105);
-            
+            WriteLogDelegate log = ReturnMessage;
+
+            log += ReturnMessage;
+            log += IncrementCount;
+
+            var result = log("Hello");
+            Assert.Equal(3, count);
+
+        }
+        
+        string ReturnMessage(string message)
+        {
+            count++;
+            return message.ToLower();
         }
 
-        private void AddWrongGrade(Book book, int v)
+        string IncrementCount(string message)
         {
-            book.AddGrade(v);
+            count++;
+            return message;
         }
 
         [Fact]
