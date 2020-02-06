@@ -34,11 +34,11 @@ namespace GradeBook
                 catch(FormatException ex)
                 {
                     Console.WriteLine(ex.Message);
-                }
+                } /*
                 finally
                 {
-                    //Console.WriteLine("Do final tasks, like close a file, here");
-                }
+                    Console.WriteLine("Do final tasks, like close a file, here");
+                }*/
             }
 
             //book.AddGrade(89.1);
