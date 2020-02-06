@@ -13,9 +13,6 @@ namespace GradeBook
         {
             var book = new Book("Scotts GradeBook");
             book.GradeAdded += OnGradeAdded;
-            book.GradeAdded += OnGradeAdded;
-            book.GradeAdded -= OnGradeAdded;
-            book.GradeAdded += OnGradeAdded;
 
             // Please Enter Grades
             // Enter q to stop entering grades and compute
